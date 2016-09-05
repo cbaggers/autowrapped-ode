@@ -31,4 +31,6 @@
              (:static-file "ode.x86_64-unknown-freebsd.spec")))
    (:file "package")
    (:file "library")
-   (:file "autowrapped-ode")))
+   (:file "precision")
+   ;; (:file "d-real") disabled until I can work out how to exlude dReal from being autowrapped
+   (:file "autowrap")))

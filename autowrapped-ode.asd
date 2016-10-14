@@ -32,5 +32,4 @@
    (:file "package")
    (:file "library")
    (:file "precision")
-   ;; (:file "d-real") disabled until I can work out how to exlude dReal from being autowrapped
    (:file "autowrap")))

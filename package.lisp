@@ -1,4 +1,7 @@
 ;;;; package.lisp
 
-(defpackage #:autowrapped-ode
-  (:use #:cl #:autowrap))
+(uiop:define-package #:raw-bindings-ode.ffi
+  (:use :cl))
+
+(uiop:define-package #:raw-bindings-ode
+  (:use :cl))

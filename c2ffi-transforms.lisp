@@ -18,3 +18,7 @@
 
 (defun ffi-export-predicate (symbol &key &allow-other-keys)
   (not (find-symbol (symbol-name symbol) :cl-user)))
+
+(defun include? (name source-location include-definitions exclude-definitions
+                 include-sources exclude-sources)
+  (break "WITNESS MEEEE!"))

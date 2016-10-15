@@ -1,4 +1,4 @@
-# autowrapped-ode
+# raw-bindings-ode
 
 This is simply a package containing the raw bindings for ODE.
 
